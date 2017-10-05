@@ -55,6 +55,18 @@ public class Magpie2
 		{
 			response = "Say something, please.";
 		}
+		else if (statement.indexOf("hobby") >= 0)
+		{
+			response = "Tell me more about your hobbies.";
+		}
+		else if (statement.indexOf("job") >= 0)
+		{
+			response = "Tell me more about your job.";
+		}
+		else if (statement.indexOf("school") >= 0)
+		{
+			response = "Tell me more about your school.";
+		}
 		else
 		{
 			response = getRandomResponse();
